@@ -1,3 +1,12 @@
+
+
+## Project Overview
+
+This Point of Sale (POS) system is designed for Charlie's Chocolate Factory. It allows users to select items from a menu, process transactions, and generate receipts. The system follows the Model-View-Controller (MVC) architectural pattern for better organization and maintainability.
+
+## Key Components
+
+```
 Charlie's Chocolate Factory/
 │
 ├── src/
@@ -32,12 +41,7 @@ Charlie's Chocolate Factory/
 ├── CMakeLists.txt
 │
 └── README.md
-
-## Project Overview
-
-This Point of Sale (POS) system is designed for Charlie's Chocolate Factory. It allows users to select items from a menu, process transactions, and generate receipts. The system follows the Model-View-Controller (MVC) architectural pattern for better organization and maintainability.
-
-## Key Components
+```
 
 ### Model
 
