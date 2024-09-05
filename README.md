@@ -1,3 +1,38 @@
+Charlie's Chocolate Factory/
+│
+├── src/
+│   ├── main.cpp
+│   │
+│   ├── model/
+│   │   ├── Item.h
+│   │   ├── Item.cpp
+│   │   ├── Inventory.h
+│   │   ├── Inventory.cpp
+│   │   ├── Transaction.h
+│   │   └── Transaction.cpp
+│   │
+│   ├── view/
+│   │   ├── ConsoleView.h
+│   │   └── ConsoleView.cpp
+│   │
+│   ├── controller/
+│   │   ├── ShopController.h
+│   │   └── ShopController.cpp
+│   │
+│   └── util/
+│       ├── FileHandler.h
+│       ├── FileHandler.cpp
+│       └── ExceptionHandler.h
+│
+├── data/
+│   └── inventory.txt
+│
+├── build/
+│
+├── CMakeLists.txt
+│
+└── README.md
+
 ## Project Overview
 
 This Point of Sale (POS) system is designed for Charlie's Chocolate Factory. It allows users to select items from a menu, process transactions, and generate receipts. The system follows the Model-View-Controller (MVC) architectural pattern for better organization and maintainability.
